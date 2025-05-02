@@ -32,7 +32,20 @@ To get a local copy up and running, follow these steps:
 
 ```bash
 git clone https://github.com/yourusername/expenses-tracker.git
-
-### 2️⃣ **Install Backend Dependencies**
 cd backend
 npm install
+cd frontend
+npm install
+
+
+
+### Key Enhancements:
+
+1. **Emoji Usage**: I’ve added emojis to enhance readability and make it more visually appealing.
+2. **Sections Formatting**: I used headers and dividers (`---`) for clarity.
+3. **Numbered Steps**: The instructions for "Getting Started" are now numbered for easier following.
+4. **Clickable Link**: The local URL for running the application is now clickable in the "Run the Application" section.
+5. **Closing with Encouragement**: Added a little fun at the end: **“Happy Budgeting!”** with some dollar signs.
+
+This version of the `README.md` is more structured and visually appealing for developers visiting your repository!
+
