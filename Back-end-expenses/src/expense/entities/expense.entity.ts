@@ -2,7 +2,7 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 // هذا لاعمده الخاصه بقاعده البيانات
 @Entity()
-export class Expense {
+export class expense {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -14,7 +14,4 @@ export class Expense {
 
   @Column()
   date: string;
-
-  @Column({ nullable: true })
-  firstname: string;
 }
