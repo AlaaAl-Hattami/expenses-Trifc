@@ -2,7 +2,7 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 // هذا لاعمده الخاصه بقاعده البيانات
 @Entity()
-export class expense {
+export class Expense {
   @PrimaryGeneratedColumn()
   id: number;
 
