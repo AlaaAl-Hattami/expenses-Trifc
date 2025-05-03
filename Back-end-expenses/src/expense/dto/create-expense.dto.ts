@@ -3,5 +3,4 @@ export class CreateExpenseDto {
   title: string;
   amount: number;
   date: string;
-  firstname: string;
 }

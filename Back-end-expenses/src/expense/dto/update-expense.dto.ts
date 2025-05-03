@@ -3,5 +3,4 @@ export class UpdateExpenseDto {
   title?: string;
   amount?: number;
   date?: string;
-  firstname?: string;
 }

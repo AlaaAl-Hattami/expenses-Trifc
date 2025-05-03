@@ -19,9 +19,6 @@ dotenv.config();
       database: process.env.DB_NAME,
       autoLoadEntities: true,
       synchronize: true,
-      ssl: {
-        rejectUnauthorized: false, // مهم جدًا للسماح بالاتصال عبر SSL
-      },
     }),
     ExpenseModule,
   ],
